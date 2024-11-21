@@ -1,11 +1,11 @@
-import tkinter as tk
-from tkinter import messagebox
-from tkinter import ttk
-import re
-import pickle
-import os
-from PIL import Image, ImageTk
-import urllib.request
+import tkinter as tk    # Import the tkinter library for creating graphical user interfaces (GUIs)
+from tkinter import messagebox    # Import the messagebox module from tkinter for showing dialog boxes (e.g., alerts, confirmations)
+from tkinter import ttk    # Import the ttk module from tkinter for using themed widgets
+import re    # Import the re module for regular expression operations (e.g., pattern matching)
+import pickle    # Import the pickle module for serializing and deserializing Python objects
+import os    # Import the os module for interacting with the operating system (e.g., file paths, directory operations)
+from PIL import Image, ImageTk    # Import the Image and ImageTk modules from PIL (Pillow library) for image processing and displaying images in Tkinter
+import urllib.request    # Import the urllib.request module for handling URL requests (e.g., downloading resources from the web)
 
 class LibraryManagementSystem:
     def __init__(self):
